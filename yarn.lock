@@ -29,9 +29,9 @@ accepts@~1.3.5:
     negotiator "0.6.2"
 
 acorn@^7.0.0:
-  version "7.1.0"
-  resolved "https://registry.npm.taobao.org/acorn/download/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
-  integrity sha1-lJ028sKSU12mAig1hsJHfFfrLWw=
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
+  integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
 align-text@^0.1.1, align-text@^0.1.3:
   version "0.1.4"
@@ -999,6 +999,13 @@ hexo-generator-index@^1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
+hexo-generator-searchdb@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.2.0.tgz#ebf1ec38be78d447d4ae7b7f358d312473a7a90b"
+  integrity sha512-/3R5cH7McZlNgkesGzdCJXAnabf8lJvWCojcRM3jTs/P+bpiKqiKanZjINSjMHoXW+05S2ccI1bJnWDS6Z3zgA==
+  dependencies:
+    nunjucks "^3.2.0"
+
 hexo-generator-tag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/hexo-generator-tag/download/hexo-generator-tag-1.0.0.tgz#54ec23de9409c75584ea81e36057a59031b022f1"
@@ -1800,7 +1807,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.npm.taobao.org/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nunjucks@^3.1.3:
+nunjucks@^3.1.3, nunjucks@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npm.taobao.org/nunjucks/download/nunjucks-3.2.0.tgz#53e95f43c9555e822e8950008a201b1002d49933"
   integrity sha1-U+lfQ8lVXoIuiVAAiiAbEALUmTM=
